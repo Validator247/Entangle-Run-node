@@ -108,3 +108,20 @@ Create Validator
     --from wallet \
     -y
 
+Edit validator
+
+    entangled tx staking edit-validator \
+    --website "your-website"
+    --chain-id entangle_33133-1 \
+    --from wallet \
+    --gas-adjustment 1.5 \
+    --gas auto \
+    --gas-prices "10aNGL" \
+    -y
+
+
+ Unjailed
+
+    entangled tx slashing unjail --from wallet --chain-id=entangle_33133-1 --gas-prices 10aNGL --gas-adjustment 1.5 --gas auto -y
+
+                 
