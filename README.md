@@ -124,16 +124,7 @@ Edit validator
 
     entangled tx slashing unjail --from wallet --chain-id=entangle_33133-1 --gas-prices 10aNGL --gas-adjustment 1.5 --gas auto -y
 
- Edit Validator
 
-         shentud tx staking edit-validator \
-         --chain-id=shentu-2.2 \
-         --commission-rate=0.04 \
-         --from=name_wallet \
-         --gas-prices=0.1uctk \
-         --gas-adjustment=1.5 \
-         --gas=auto \
-         -y
 
 
                  
